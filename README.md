@@ -2,7 +2,7 @@
 
 ## memo
 
-* 日本語版サーバレスシングルページアプリケーション本（オライリー）の写経
+* <a href="http://amzn.to/2tcqUc6">日本語版サーバレスシングルページアプリケーション本（オライリー）</a>の写経
 * オリジナルは [benrady/learnjs: Prepared Workspace for "Serverless Single Page Apps" @ Pragprog](https://github.com/benrady/learnjs)
 
     * 若干中身が古いので少し変更
