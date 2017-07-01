@@ -20,16 +20,16 @@
 
     * [jasmine](https://github.com/jasmine/jasmine) も [2.6.4](https://github.com/jasmine/jasmine/releases/tag/v2.6.4) に
 
-        mkdir -p sspa/public/tests
-        cd sspa/public/tests
-        wget https://github.com/jasmine/jasmine/releases/download/v2.6.4/jasmine-standalone-2.6.4.zip
-        unzip jasmine-standalone-2.6.4.zip
-        mv SpecRunner.html index.html
-        rm MIT.LICENSE
-        rm -fr spec
-        rm -fr src
-        rm jasmine-standalone-2.6.4.zip
-        cd lib/
-        wget https://code.jquery.com/jquery-3.2.1.min.js
-        cd ..
-        vi index.html  // sspa/public/tests/index.html
+          mkdir -p sspa/public/tests
+          cd sspa/public/tests
+          wget https://github.com/jasmine/jasmine/releases/download/v2.6.4/jasmine-standalone-2.6.4.zip
+          unzip jasmine-standalone-2.6.4.zip
+          mv SpecRunner.html index.html
+          rm MIT.LICENSE
+          rm -fr spec
+          rm -fr src
+          rm jasmine-standalone-2.6.4.zip
+          cd lib/
+          wget https://code.jquery.com/jquery-3.2.1.min.js
+          cd ..
+          vi index.html  // sspa/public/tests/index.html
