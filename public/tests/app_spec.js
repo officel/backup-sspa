@@ -13,13 +13,6 @@ describe('LearnJS', function() {
     expect(learnjs.problemView).toHaveBeenCalledWith('42');
   });
 
-  describe('problem view', function() {
-    it('has a title that includes the problem number', function() {
-      var view = learnjs.problemView('1');
-      expect(view.text()).toEqual('Problem #1 Coming soon');
-    });
-  });
-
   it('invokes the router when loaded', function() {
     spyOn(learnjs, 'showView');
     learnjs.appOnReady();
@@ -32,6 +25,25 @@ describe('LearnJS', function() {
     $(window).trigger('hashchange');
     expect(learnjs.showView).toHaveBeenCalledWith(window.location.hash);
   });
+
+  describe('problem view', function() {
+    it('has a title that include the problem number', function(){
+      // 書籍ではこの行はない。
+      var view = learnjs.problemView(1);
+      expect(view.find('.title').text()).toEqual('Problem #1');
+    });
+    it('shows the decription', function(){
+      var view = learnjs.problemView(1);
+      expect(view.find('[data-name="description"]').text()).toEqual('What is truth?');
+    });
+    it('shows the problem code', function(){
+      var view = learnjs.problemView(1);
+      expect(view.find('[data-name="code"]').text()).toEqual('function problem() { return __; }');
+    });
+
+
+  });
+
 
 });
 
