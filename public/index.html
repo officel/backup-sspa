@@ -6,9 +6,9 @@
     <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
-    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
-    <script src='/vendor.js'></script>
-    <script src='/app.js'></script>
+    <script type="text/javascript" src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+    <script type="text/javascript" src='/vendor.js' charset="utf-8"></script>
+    <script type="text/javascript" src='/app.js' charset="utf-8"></script>
     <style type="text/css" media="all">
         body {
             margin-top: 30px;
@@ -40,6 +40,13 @@
             <h3 class='title'></h3>
             <p data-name='description'></p>
             <pre><code data-name='code'></code></pre>
+            <form>
+                <textarea class='u-full-width answer'></textarea>
+                <div>
+                    <button class='button-primary check-btn'>Check Answer</button>
+                    <p class='result'></p>
+                </div>
+            </form>
         </div>
     </div>
 
@@ -51,4 +58,3 @@
 </script>
 </body>
 </html>
-

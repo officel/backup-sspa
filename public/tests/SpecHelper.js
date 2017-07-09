@@ -10,7 +10,7 @@ function loadFixture(path) {
         async: false
     });
     return $.parseHTML(html);
-}
+};
 
 function resetFixture() {
     if (!fixture) {
@@ -21,7 +21,7 @@ function resetFixture() {
     } else {
         $('.fixture').replaceWith(fixture.clone());
     }
-}
+};
 
 beforeEach(function () {
     resetFixture();
