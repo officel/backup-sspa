@@ -33,3 +33,8 @@
           wget https://code.jquery.com/jquery-3.2.1.min.js
           cd ..
           vi index.html  // sspa/public/tests/index.html
+
+    * オリジナルのリポジトリに書いてあるリンクに[原書のページ](https://pragprog.com/book/brapps/serverless-single-page-apps)
+    * その中に[ソースコードのダウンロードへのリンク](https://pragprog.com/titles/brapps/source_code)
+    * 日本語版書籍記載のソースコードは一部を抜き出して書いているのでこっちを見たほうが手っ取り早い（このことについて書籍ではきちんと説明できていない）
+    * 逆にコードがあれば本は要らないのでこのリポジトリも作業を終わる
